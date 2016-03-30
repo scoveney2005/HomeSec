@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcfoley.tempapp.home"
+    android:label="@string/app_name">
+
+    <ImageButton
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="Settings"
+        android:id="@+id/settings"
+        android:background="@drawable/light"
+        android:layout_marginTop="124dp"
+        android:layout_below="@+id/devices"
+        android:layout_alignLeft="@+id/devices"
+        android:layout_alignStart="@+id/devices" />
+
+    <ImageButton
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="devices"
+        android:id="@+id/devices"
+        android:background="@drawable/alarm"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="59dp"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" /><![CDATA[
+
+    />
+
+
+
+    />
+
+    ]]>
+
+    <ImageButton
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="camera"
+        android:id="@+id/camera"
+        android:background="@drawable/heat"
+        android:backgroundTint="#000000"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/devices"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="Log Out"
+        android:id="@+id/log_out"
+        android:background="@drawable/cam"
+        android:layout_alignTop="@+id/settings"
+        android:layout_alignLeft="@+id/camera"
+        android:layout_alignStart="@+id/camera" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   Devices"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/devices"
+        android:layout_alignLeft="@+id/devices"
+        android:layout_alignStart="@+id/devices" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  Heating"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignLeft="@+id/camera"
+        android:layout_alignStart="@+id/camera" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    Lights"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/settings"
+        android:layout_alignLeft="@+id/settings"
+        android:layout_alignStart="@+id/settings" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Camera"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/log_out"
+        android:layout_alignRight="@+id/log_out"
+        android:layout_alignEnd="@+id/log_out"
+        android:layout_alignLeft="@+id/log_out"
+        android:layout_alignStart="@+id/log_out" /><![CDATA[
+
+
+
+    />
+
+]]>
+</RelativeLayout>
